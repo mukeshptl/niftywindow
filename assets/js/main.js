@@ -472,7 +472,9 @@
 			prevArrow: '<button type="button" class="slick-prev"><span class="linea-arrows-slim-left"></span></button>',
 			nextArrow: '<button type="button" class="slick-next"><span class="linea-arrows-slim-right"></span></button>',
 			autoplay: true,
-			autoplaySpeed: 4000,
+			autoplaySpeed: 3000,
+			ininite: true,
+			pauseOnHover: false,
 		});
 
 		// Full Width Hero Slider
