@@ -3022,13 +3022,13 @@ hr {
             transition: background 0.3s;
   }
   
-  .navbar-trans .navbar-logo {
-    content: url(../images/logo-light.png);
+  /* .navbar-trans .navbar-logo {
+    content: url(../images/logo-final.png);
   }
   
   .navbar-trans .navbar-logo-dark {
-    content: url(../images/logo.png);
-  }
+    content: url(../images/logo-final.png);
+  } */
   
   .navbar-trans:not(.navbar-inverse) .navbar-nav li a:focus,
   .navbar-trans:not(.navbar-inverse) .navbar-nav li a:hover {
@@ -3078,7 +3078,7 @@ hr {
   }
   
   .navbar-small .navbar-header .navbar-brand {
-    padding: 9px 0;
+    padding: 0px 0;
   }
   
   .navbar-small .navbar-nav {

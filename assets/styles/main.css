@@ -3023,13 +3023,13 @@ fieldset[disabled] .form-control:hover {
           transition: background 0.3s;
 }
 
-.navbar-trans .navbar-logo {
-  content: url(../images/logo-light.png);
-}
+/* .navbar-trans .navbar-logo {
+  content: url(../);
+} */
 
-.navbar-trans .navbar-logo-dark {
+/* .navbar-trans .navbar-logo-dark {
   content: url(../images/logo.png);
-}
+} */
 
 .navbar-trans:not(.navbar-inverse) .navbar-nav li a:focus,
 .navbar-trans:not(.navbar-inverse) .navbar-nav li a:hover {
@@ -3079,7 +3079,7 @@ fieldset[disabled] .form-control:hover {
 }
 
 .navbar-small .navbar-header .navbar-brand {
-  padding: 9px 0;
+  padding: 0px 0;
 }
 
 .navbar-small .navbar-nav {
@@ -7883,9 +7883,11 @@ form .input-error-2:focus {
 }
 
 .main-demo-hero .hero-content-wrapper .hero-content .hero-lead, .fs-video-hero .hero-content-wrapper .hero-content .hero-lead, .fw-video-hero .hero-content-wrapper .hero-content .hero-lead, .text-slider-hero .hero-content-wrapper .hero-content .hero-lead, .freelancer-hero .hero-content-wrapper .hero-content .hero-lead, .agency2-hero .hero-content-wrapper .hero-content .hero-lead, .animated-hero .hero-content-wrapper .hero-content .hero-lead, .web-app-hero .hero-content-wrapper .hero-content .hero-lead {
-  font-size: 6em;
-  font-weight: 700;
-  letter-spacing: 2px;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 4em;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #ececec
 }
 
 .main-demo-hero .hero-content-wrapper .hero-content .hero-subheading, .fs-video-hero .hero-content-wrapper .hero-content .hero-subheading, .fw-video-hero .hero-content-wrapper .hero-content .hero-subheading, .text-slider-hero .hero-content-wrapper .hero-content .hero-subheading, .freelancer-hero .hero-content-wrapper .hero-content .hero-subheading, .agency2-hero .hero-content-wrapper .hero-content .hero-subheading, .animated-hero .hero-content-wrapper .hero-content .hero-subheading, .web-app-hero .hero-content-wrapper .hero-content .hero-subheading {
@@ -7947,12 +7949,135 @@ form .input-error-2:focus {
 }
 
 .fs-slide-1 .hero-content .hero-subheading {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   margin-bottom: 20px;
-  color: #999;
+  color: #ffffffab;
 }
 
 .fs-slide-2 {
+  background: url(../images/hero/Michelin-6.jpg);
+  background-size: cover;
+}
+
+.fs-slide-2 .bg-overlay {
+  background: rgba(17, 17, 17, 0.7);
+}
+
+.fs-slide-2 .hero-content {
+  text-align: center;
+}
+
+
+.fs-slide-2 .hero-content .hero-lead {
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 4em;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #ececec;
+}
+
+.fs-slide-2 .hero-content .hero-subheading {
+  /* margin-top: 100px; */
+  margin-bottom: 20px;
+  color: #ffffffab;
+}
+
+.fs-slide-3 {
+  background: url(../images/hero/Michelin-5.jpg);
+  background-size: cover;
+}
+
+.fs-slide-3 .bg-overlay {
+  background: rgba(17, 17, 17, 0.7);
+}
+
+.fs-slide-3 .hero-content {
+  text-align: center;
+}
+
+.fs-slide-3 .hero-content .hero-lead {
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 4em;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #ececec;
+}
+
+.fs-slide-3 .hero-content .hero-subheading {
+  /* margin-top: 100px; */
+  margin-bottom: 20px;
+  color: #ffffffab;
+}
+
+.fs-slide-4 {
+  background: url(../images/hero/main.jpg);
+  background-size: cover;
+}
+
+.fs-slide-4 .bg-overlay {
+  background: rgba(17, 17, 17, 0.7);
+}
+
+.fs-slide-4 .hero-content {
+  text-align: center;
+}
+
+.fs-slide-4 .hero-content .hero-lead {
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 4em;
+  font-weight: 600;
+  letter-spacing: 5px;
+  color: #ececec;
+}
+
+.fs-slide-4 .hero-content .hero-subheading {
+  /* margin-top: 100px; */
+  margin-bottom: 20px;
+  color: #ffffffab;
+}
+
+.hero-content p.phone {
+  color: #ffffffab;
+  font-size: 2em;
+  margin-top: 40px;
+}
+
+.hero-content .hero-subheading{
+  margin-top: 40px;
+}
+
+.about-us-pills{
+  padding: 2px 5px;
+  background: #f4f4f4;
+  /* background: -webkit-linear-gradient(to right, #F2C94C, #fee400);
+  background: linear-gradient(to right, #F2C94C, #fee400); */
+  border-radius: 4px;
+  margin-right: 4px;
+  margin-bottom: 12px;
+  line-height: 25px;
+  display: inline-block;
+  color: #1e5a9d;
+}
+
+.contact-1 .contact-wrapper .contact-info-wrapper address .address-group span.stars {
+  display: inline-block;
+}
+
+address .stars-social {
+  display: inline-block;
+  color: #1e5a9d;
+  margin-right: 10px; 
+}
+
+.contact-1 .contact-wrapper .contact-info-wrapper address .show-map-link a {
+  margin-top: 0px;
+}
+
+#about-us p {
+  font-size: 16px;
+}
+
+/* .fs-slide-2 {
   background: url(../images/hero/fs-slider.jpg);
   background-size: cover;
 }
@@ -7967,10 +8092,11 @@ form .input-error-2:focus {
 }
 
 .fs-slide-2 .hero-content .hero-lead {
-  font-size: 6.5em;
-  font-weight: 700;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 4em;
+  font-weight: 600;
   letter-spacing: 5px;
-  color: #ececec;
+  color: #ececec
 }
 
 .fs-slide-2 .hero-content .hero-lead span {
@@ -7997,12 +8123,12 @@ form .input-error-2:focus {
 }
 
 .fs-slide-3 .hero-content .hero-lead {
-  margin-bottom: 35px;
   font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-size: 4em;
-  font-weight: 800;
-  letter-spacing: 15px;
+  font-weight: 600;
+  letter-spacing: 5px;
   color: #ececec;
+  text-align: center;
 }
 
 .fs-slide-3 .hero-content .hero-lead span {
@@ -8010,10 +8136,10 @@ form .input-error-2:focus {
 }
 
 .fs-slide-3 .hero-content .hero-subheading {
-  margin-top: 100px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   color: #999;
-}
+} */
 
 /* ---- 20.3 Full Width Slider ---- */
 .fw-slider-hero {
@@ -8551,10 +8677,12 @@ form .input-error-2:focus {
 }
 
 .app-hero .hero-text .hero-lead {
-  margin-bottom: 50px;
-  font-size: 3.4em;
-  font-weight: 700;
-  letter-spacing: 10px;
+  font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #ececec
+    
 }
 
 .app-hero .hero-text p {
